@@ -18,6 +18,29 @@ For each record in the dataset it is provided:
 - An identifier of the subject who carried out the experiment. 
 
 R Script:
+#1 First clean up the workspace and check the working directory to make sure that all of text files are save in the current working directory. Next, use read.table() to read into tables:
+- features.txt
+- activity labels.txt
+- subject_train.txt
+- x_train.txt
+- y_train.txt
+- subject_test.txt
+- x_test.txt
+- y_test.txt
+# This section, printing the above tables is optional. It is a good habit to check the result of your script before writing the script for next steps.
+
+#2 Create column names by using conames()
+
+#3 Merge the training and test sets to create one data set. Again, printing TrainRawdata table, TestRawdata table and All_TrainTest_Data table to check my result.
+
+#4 Convert comlumn 2 of features and labels to string
+
+#5 Extract only measurement on the mean and standard deviation for each measurement
+
+#6 Add label and convert data to factor
+
+#7 write a new table name "Final_tidy_data"
+
 
 
 
